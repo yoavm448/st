@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "mono:pixelsize=20:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -213,8 +213,8 @@ static MouseShortcut mshortcuts[] = {
 
 MouseKey mkeys[] = {
 	/* button               mask            function        argument */
-	{ Button4,              ShiftMask,      kscrollup,      {.i =  1} },
-	{ Button5,              ShiftMask,      kscrolldown,    {.i =  1} },
+	{ Button4,              ShiftMask,      kscrollup,      {.i =  2} },
+	{ Button5,              ShiftMask,      kscrolldown,    {.i =  2} },
 	{ Button4,              MODKEY,         kscrollup,      {.i =  1} },
 	{ Button5,              MODKEY,         kscrolldown,    {.i =  1} },
 	{ Button4,              TERMMOD,        zoom,           {.f = +1} },
